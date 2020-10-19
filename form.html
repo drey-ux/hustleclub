@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now! | SideHustle Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Side Hustle Club</h1>
+    </header>
+            <h2>Welcome to <br><span>Hustle House</span></h2>
+        </div>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/form.html">Join the Club</a></li>
+            <li>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h2 class="fill">Fill this form carefully and Gbam! You're a Side Hustler</h2>
+    <form>
+        <div class="container">
+    <div class="general">
+    
+        <label for="file">Upload a picture</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        <label for="username">Enter Username: </label>
+        <input type="text" id="username" name="username" class="space" placeholder="Username">
+        <br><br>
+        <label for="email">Enter Email:</label>
+        <input type="email" id="email" name="email" class="space" placeholder="example@email.com">
+        <br><br>
+        <label for="">Enter Password:</label>
+        <input type="password" id="password" name="password" class="space" placeholder="Password">
+        <br><br>
+        <label for="tel">Enter Phone Number: </label>
+        <input type="tel" id="tel"  name="tel" class="space" maxlength="15" placeholder="810-427-7806" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br><br>
+    </div>
+    <div class="single">
+        <label for="date1">Date of Birth: </label>
+        <input type="date" id="date1">
+        
+        <br><br>
+    </div>
+    <div class="double">
+        <p>Gender</p>
+
+        <input type="radio" name="gender" value="male" id="option-1">
+        <label for="option-1">Male</label>
+        <input type="radio" name="gender" value="female" id="option-2">
+        <label for="option-2">Female</label><br><br>
+        
+    </div>
+    <div class="rock">
+    
+        <label for="option">Select your language: </label>
+        <input list="lang" id="option" class="space" placeholder="Select Language" required>
+        <datalist id="lang" name="lang">
+            <option value="English"></option>
+            <option value="Yoruba"></option>
+            <option value="Greek"></option>
+            <option value="Latin"></option>
+        </datalist>
+        <br><br>
+    </div>
+   
+    <div id="help">
+        <label for="bio">Enter bio: </label><br><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+        <br><br>
+    </div>
+    <div class="imagine">
+
+        <input type="submit" class="standard" value="Submit this form">
+    </div>
+    </div>
+    </form>
